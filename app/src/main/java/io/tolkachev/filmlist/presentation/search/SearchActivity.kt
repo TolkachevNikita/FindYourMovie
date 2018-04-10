@@ -18,6 +18,7 @@ import org.jetbrains.anko.backgroundColor
 import org.jetbrains.anko.dip
 import org.jetbrains.anko.padding
 import org.jetbrains.anko.sdk25.coroutines.textChangedListener
+import org.jetbrains.anko.singleLine
 
 class SearchActivity : AppCompatActivity() {
 
@@ -40,6 +41,7 @@ class SearchActivity : AppCompatActivity() {
         val searchFilm = EditText(this).apply {
             hint = "текст запроса"
             padding = dip(10)
+            maxLines = 1
         }
 
         searchFilm.textChangedListener {
