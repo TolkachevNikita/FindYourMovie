@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">MovieTracker</string>
+    <string name="app_name">Фильмотека</string>
     <string name="title_activity_main">MainActivity</string>
 </resources>
